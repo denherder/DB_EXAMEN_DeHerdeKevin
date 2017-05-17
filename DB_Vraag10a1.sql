@@ -1,0 +1,1 @@
+SELECT gene_name,(seq_region_end - seq_region_start) AS length FROM gene LIMIT 1;
